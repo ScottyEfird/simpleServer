@@ -1,0 +1,26 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "simpleServer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottyEfird/simpleServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottyEfird/simpleServer/issues"
+  },
+  "homepage": "https://github.com/ScottyEfird/simpleServer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.11"
+  }
+}
