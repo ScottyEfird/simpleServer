@@ -1,5 +1,5 @@
 module.exports = function(app) {
   app.get('/', function(req, res, next) {
-    res.send(['ep 66'])
+    res.send(['data'])
   })
 }
