@@ -8,7 +8,8 @@ exports.signup = function(req, res, next) {
   User.findOne({ email: email }, (error, response) => {
     if (error) return next(error)
     if (response) return res.status(422).send({ error: 'Email already exists'})
-    
+    if (!email || !password) return res.status(422).send({ error: 'Email and password are required parameters' })
+
     const user = new User({
       email,
       password
@@ -17,7 +18,7 @@ exports.signup = function(req, res, next) {
     user.save((error, response) => {
       if(error) return next(error)
 
-      res.json(user)
+      res.json({ success: 'true' })
     })
   })
 }
