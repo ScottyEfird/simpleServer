@@ -5,7 +5,7 @@ Written to work with my "simple client repo", has a very simple auth handling Ja
 ## Startup instruction:
 Start up Mongodb
 
-```.\ mongod```
+```.\mongod.exe```
 
 Navagate to server directory
 
