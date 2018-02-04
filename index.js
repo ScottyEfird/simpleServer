@@ -5,6 +5,7 @@ const morgan = require('morgan')
 const router = require('./router')
 const mongoose = require('mongoose')
 const app = express()
+const cors = require('cors')
 
 //Mongodb setup
 try {
@@ -15,6 +16,7 @@ try {
 
 // Express Middleware
 app.use(morgan('combined'))
+app.use(cors())
 app.use(bodyParser.json({ type: '*/*' }))
 router(app)
 
