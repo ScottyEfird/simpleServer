@@ -7,6 +7,8 @@ Start up Mongodb
 
 ```.\mongod.exe```
 
+MongoDb should return ```[initandlisten] waiting for connections on port 27017```
+
 Navagate to server directory
 
 ```cd / server```
