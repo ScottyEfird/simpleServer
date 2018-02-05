@@ -3,6 +3,11 @@
 Written to work with my "simple client repo", has a very simple auth handling JavaScript Web Token (JWT). 
 
 ## Startup instruction:
+
+Start up the web client at my repo here:
+
+https://github.com/ScottyEfird/simpleClient
+
 Navagate and clone repo
 
 Start up Mongodb
